@@ -1,3 +1,4 @@
+#!/usr/bin/env babel-node --presets=es2017 --plugins=transform-object-rest-spread
 // This script searches for recipes with buckfiles that use genrules and prints those to stdout
 // It should be run from the root of a cook-book folder.
 // i.e. adjacent to "recipes"
